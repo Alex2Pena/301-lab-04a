@@ -1,0 +1,94 @@
+
+/* //colaborated with steven for  this lab.// */
+
+
+@media screen and (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    div {
+        border: black solid 1px;
+        height: 200px;
+        background-color: blue;
+        line-height: 200px;
+    }
+    header {
+        background-color: yellow;
+        border: black solid 1px;
+        text-align: center;
+        height: 100px;
+        line-height: 100px;;
+    }
+    footer {
+        background-color: blue;
+        border: black solid 1px;
+        text-align: center;
+        height: 100px;
+        line-height: 100px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+
+    div {
+        border: black solid 1px;
+        height: 100%;
+        list-style: none;
+        background-color: orange;
+        line-height: 200px;
+    }
+
+    header {
+        height: 100px;
+        background-color: yellowgreen;
+        border: black solid 1px;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    footer {
+        height:100px;
+        background-color: yellowgreen;
+        border: black solid 1px;
+        text-align: center;
+        line-height: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 961px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        text-align: center;
+    }
+    
+    div {
+        border: black solid 1px;
+        height: 1fr 1fr;
+        background-color: hotpink;
+        line-height: 300px;
+    }
+
+    header {
+        height: 100px;
+        background-color: green;
+        border: black solid 1px;
+    }
+
+    footer {
+        height: 100px;
+        background-color: green;
+        border: black solid 1px;
+    }
+ 
+}
